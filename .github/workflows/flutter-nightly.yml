@@ -8,7 +8,7 @@ on:
 
 jobs:
   run-flutter-nightly-build:
-    runs-on: self-hosted
+    runs-on: APLAPEK
     uses: ./.github/workflows/flutter-build.yml
     secrets: inherit
     with:
